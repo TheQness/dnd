@@ -7,13 +7,15 @@ import { BagofholdingComponent } from 'src/components/bagofholding/bagofholding.
 import { CombattrackerComponent } from 'src/components/combattracker/combattracker.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app.routing-module';
+import { WildmagicComponent } from 'src/components/wildmagic/wildmagic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     BagofholdingComponent,
-    CombattrackerComponent
+    CombattrackerComponent,
+    WildmagicComponent
   ],
   imports: [
     BrowserModule,
