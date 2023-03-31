@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from 'src/components/home/home.component';
 import { BagofholdingComponent } from 'src/components/bagofholding/bagofholding.component';
 import { CombattrackerComponent } from 'src/components/combattracker/combattracker.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AppRoutingModule } from './app.routing-module';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { CombattrackerComponent } from 'src/components/combattracker/combattrack
     CombattrackerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgbModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
