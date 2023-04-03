@@ -6,11 +6,19 @@
         <p>
             Select a bag to view
         </p>
-        <div class="col-1">
-            <button (click)="toggleShowTable()" class="button btn-bag">
-                <img src="/assets/images/bag-icon.jpg" width="100%">
-                Bag1
-            </button>
+        <div class="row">
+            <div class="col-1">
+                <button (click)="toggleShowTable()" class="button btn-bag">
+                    <img id="bag1" src="/assets/images/bag-icon.jpg" width="100%">
+                    Bag1
+                </button>
+            </div>
+            <div class="col-1">
+                <button id="bag2" (click)="toggleShowTable()" class="button btn-bag">
+                    <img src="/assets/images/bag-icon.jpg" width="100%">
+                    Bag2
+                </button>
+            </div>
         </div>
     </div>
 
@@ -30,12 +38,30 @@
             <tbody>
                 <tr>
                     <th scope="row">1</th>
+                    <td>Alchemy Jug</td>
+                    <td>Wonderous</td>
+                    <td>Uncommon</td>
+                    <td>1</td>
+                    <td>N/A</td>
+                    <td>This ceramic jug appears to hold a gallon of liquid</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
                     <td>Bag of Beans</td>
                     <td>Wonderous</td>
                     <td>Rare</td>
                     <td>1</td>
                     <td>N/A</td>
                     <td>A bag of magic Beans</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Cloak of Protection</td>
+                    <td>Wonderous</td>
+                    <td>Uncommon</td>
+                    <td>1</td>
+                    <td>N/A</td>
+                    <td>You gain +1 bonus to ac while wearing this cloak</td>
                 </tr>
             </tbody>
         </table>

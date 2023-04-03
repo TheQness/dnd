@@ -7,3 +7,21 @@
     font-size: 16px;
     border-radius: 12px;
 }
+
+.table-hover {
+    color: lightgray;
+}
+
+.table-hover tbody tr:hover {
+    background: rgb(47, 47, 47);
+}
+
+.table-hover tbody tr:hover th {
+    color: aliceblue;
+    /* color: rgb(4, 187, 74); */
+}
+
+.table-hover tbody tr:hover td {
+    color: aliceblue;
+    /* color: rgb(4, 187, 74); */
+}
